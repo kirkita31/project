@@ -1,0 +1,502 @@
+.maindiv {
+  background-color: #161616;
+  max-width: 1750px;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+.sec-1 {
+  max-height: 750px;
+  width: 100%;
+  background-image: url(../images/Background.png);
+  background-size: cover;
+  box-sizing: border-box;
+  background-position: center;
+}
+
+.logo {
+  font-family: "Roboto", sans-serif;
+  font-size: 55px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+nav ul li {
+  display: inline-block;
+  padding: 10px 50px;
+  font-size: 24px;
+  font-family: "Oswald", sans-serif;
+  color: #ffffff;
+  transition: 1s;
+  cursor: pointer;
+  border-radius: 20px;
+}
+nav ul li:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+.btn {
+  font-family: "Oswald", sans-serif;
+  background-color: rgb(21, 106, 175);
+  color: #ffffff;
+  text-decoration: none;
+  border: 2px solid transparent;
+  padding: 10px 25px;
+  border-radius: 30px;
+  transition: transform 0.4s;
+  cursor: pointer;
+}
+.btn:hover {
+  transform: scale(1.2);
+}
+
+.content {
+  text-align: right;
+  font-size: 100px;
+  font-weight: 600;
+  margin-right: 100px;
+  justify-content: center;
+  margin-top: 50px;
+  font-family: "Oswald", sans-serif;
+  color: #ffffff;
+}
+.content-p {
+  font-size: 35px;
+  padding: 20px;
+  font-family: "Oswald" sans-serif;
+  font-weight: 600;
+}
+.btn-2 {
+  text-align: right;
+  font-family: "Oswald", sans-serif;
+  background-color: rgb(21, 106, 175);
+  color: #ffffff;
+  text-decoration: none;
+  border: 2px solid transparent;
+  padding: 10px 25px;
+  border-radius: 30px;
+  transition: transform 0.4s;
+  cursor: pointer;
+}
+.btn-2:hover {
+  transform: scale(1.2);
+}
+
+.ab {
+  font-size: 100px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 50px;
+}
+
+.info-1 {
+  font-family: "Oswald", sans-serif;
+  text-align: left;
+  font-size: 22px;
+  color: #ffffff;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.cont2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.rec1 {
+  max-width: 750px;
+  max-height: 316px;
+  margin: 50px;
+}
+
+.sec-3 {
+  background-color: #1a191a;
+  max-height: 1525px;
+  max-width: 1920px;
+}
+.lines1 {
+  display: flex;
+}
+.vec1 {
+  left: 26px;
+  top: 22px;
+}
+
+.cont3 h2 {
+  text-align: center;
+  font-size: 100px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+}
+.cont3 p {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Oswald", sans-serif;
+  color: #ffffff;
+  margin-top: 30px;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card1 {
+  width: 330px;
+  height: 400px;
+  background-color: #00dda880;
+  border-radius: 16px;
+  margin: 100px 80px;
+  position: relative;
+}
+.map {
+  align-items: center;
+  position: absolute;
+  margin-left: 30px;
+  margin-bottom: 150px;
+}
+.card1 h3 {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: "Oswald", sans-serif;
+  position: absolute;
+  margin-top: 230px;
+  margin-left: 30px;
+}
+.card1 p {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: "Oswald", sans-serif;
+  position: absolute;
+  top: 280px;
+  left: 24px;
+}
+
+.card2 {
+  width: 330px;
+  height: 400px;
+  background-color: #cf2929;
+  border-radius: 16px;
+  margin: 100px 80px;
+  position: relative;
+}
+.calendar {
+  align-items: center;
+  position: absolute;
+  margin-left: 30px;
+  margin-bottom: 150px;
+}
+.card2 h3 {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: "Oswald", sans-serif;
+  position: absolute;
+  margin-top: 220px;
+  margin-left: 60px;
+}
+.card2 p {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: "Oswald", sans-serif;
+  position: absolute;
+  top: 300px;
+  left: 24px;
+}
+
+.card3 {
+  width: 330px;
+  height: 400px;
+  background-color: #0058dd;
+  border-radius: 16px;
+  margin: 100px 80px;
+  position: relative;
+}
+.key {
+  align-items: center;
+  position: absolute;
+  margin-left: 30px;
+  margin-bottom: 150px;
+}
+.card3 h3 {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: "Oswald", sans-serif;
+  position: absolute;
+  margin-top: 230px;
+  margin-left: 60px;
+}
+.card3 p {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: "Oswald", sans-serif;
+  position: absolute;
+  top: 310px;
+  left: 24px;
+}
+.lines2 {
+  margin-left: 1400px;
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.sec-4 {
+  max-width: 1920px;
+  justify-content: space-between;
+}
+.sec-4 h2 {
+  font-size: 100px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  margin-left: 100px;
+}
+.sec-4 p {
+  font-size: 24px;
+  font-family: "Oswald", sans-serif;
+  color: #ffffff;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+.cars {
+  margin-top: 60px;
+  display: flex;
+}
+.car1 {
+  width: 500px;
+  height: 270px;
+  position: absolute;
+}
+.car1 img {
+  width: 100%;
+  height: 100%;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+  background: black;
+  cursor: pointer;
+}
+.overlaytext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+.overlaytext h3 {
+  font-size: 24px;
+}
+.overlaytext p {
+  font-size: 18px;
+}
+.car1:hover .overlay {
+  opacity: 0.8;
+}
+
+.car2 {
+  width: 500px;
+  height: 270px;
+  position: absolute;
+  margin-left: 650px;
+}
+.car2 img {
+  width: 100%;
+  height: 100%;
+}
+.overlay2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+  background: black;
+  cursor: pointer;
+}
+.overlaytext2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+.car2:hover .overlay2 {
+  opacity: 0.8;
+}
+
+.car3 {
+  width: 500px;
+  height: 270px;
+  position: absolute;
+  margin-left: 1300px;
+}
+.car3 img {
+  width: 100%;
+  height: 100%;
+}
+.overlay3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+  background: black;
+  cursor: pointer;
+}
+.overlaytext3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+.car3:hover .overlay3 {
+  opacity: 0.8;
+}
+
+.sec-5 {
+  width: 1750px;
+  height: 1730px;
+  display: flex;
+  flex-direction: column;
+}
+.star2 {
+  margin-top: 500px;
+  position: relative;
+}
+.content5 {
+  display: flex;
+  position: absolute;
+  margin-top: 500px;
+  margin-left: 100px;
+}
+.content5 h2 {
+  font-size: 100px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+}
+.content5 p {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Oswald", sans-serif;
+  color: #ffffff;
+  margin-left: 600px;
+}
+.rectangle6 {
+  position: absolute;
+  margin-top: 800px;
+  margin-left: 100px;
+  max-width: 1700px;
+  max-height: 700px;
+}
+.rectangle6 img {
+  width: 1500px;
+  /* height: 100%; */
+}
+.star1 {
+  position: absolute;
+  margin-top: 1400px;
+  margin-left: 1375px;
+}
+.sec-6 {
+  display: flex;
+  padding: 50px 100px 0 100px;
+  justify-content: space-between;
+}
+.sec-6 h1 {
+  font-size: 100px;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  font-weight: 400;
+}
+.sec-6 p {
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 30px;
+}
+.sec-6 input {
+  font-family: "Roboto", sans-serif;
+  background-color: #1a191a;
+  width: 350px;
+  height: 60px;
+  border: none;
+  border-bottom: 2px;
+  margin: 10px;
+}
+.sec-6 button {
+  font-size: 24px;
+  background-color: #0058dd;
+  border-radius: 30px;
+  width: 100%;
+  transition: 1s;
+}
+.sec-6 button:hover {
+  transform: scale(1.05);
+}
+.sec-map {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding: 100px;
+}
+footer h1 {
+  font-size: 70px;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+}
+
+footer p {
+  font-size: 15px;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+footer .p1 {
+  margin-top: 240px;
+}
+footer h3 {
+  font-size: 35px;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+}
+footer ul li {
+  font-size: 17px;
+  font-family: "Oswald", sans-serif;
+  color: #bdbdbd;
+  margin-top: 30px;
+}
